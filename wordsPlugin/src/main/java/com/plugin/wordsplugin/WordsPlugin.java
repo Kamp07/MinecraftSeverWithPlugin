@@ -24,8 +24,6 @@ import static org.bukkit.Bukkit.broadcastMessage;
 
 public final class WordsPlugin extends JavaPlugin implements Listener {
 
-    public final Logger logger = Logger.getLogger("Minecraft");
-
     public static int tid = 0;
 
     long UUID;
@@ -42,7 +40,7 @@ public final class WordsPlugin extends JavaPlugin implements Listener {
             @Override
             public void run() {
                 try {
-                    broadcastMessage(getMessage("C:\\Users\\kiril\\IdeaProjects\\Minecraft Server With Plugin\\MinecraftServer\\plugins\\phrases.txt"));
+                    broadcastMessage(getMessage("your path\\MinecraftServer\\plugins\\phrases.txt"));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
