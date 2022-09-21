@@ -22,7 +22,7 @@ public class SendPhrasesThread extends Thread{
 
             try {
                 mills = (long) (2000 + Math.random() * 8000);
-                player.sendMessage(ChatColor.DARK_PURPLE + WordsPlugin.getMessage("C:\\Users\\kiril\\IdeaProjects\\Minecraft Server With Plugin\\MinecraftServer\\plugins\\phrases.txt"));
+                player.sendMessage(ChatColor.DARK_PURPLE + WordsPlugin.getMessage("your path\\MinecraftServer\\plugins\\phrases.txt"));
                 Thread.sleep(mills);
             } catch (IOException | InterruptedException e) {
                 e.printStackTrace();
