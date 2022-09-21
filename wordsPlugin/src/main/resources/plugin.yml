@@ -1,0 +1,6 @@
+name: WordsPlugin
+version: '${project.version}'
+main: com.plugin.wordsplugin.WordsPlugin
+api-version: 1.19
+authors: [ kampot ]
+description: Minecraft plugin for getting random phrases
